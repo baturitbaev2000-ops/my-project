@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+
+.header {
+  background: #111;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+  transition: 0.3s;
+}
+
+.nav a:hover {
+  color: #d40000;
+}
+
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: url("dz2..jpg");
+  color: #fff;
+  padding: 60px 10%;
+}
+
+.hero-text {
+  flex: 1;
+  margin-right: 30px;
+  background: rgba(0, 0, 0, 0.6);
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.hero-img img {
+  border-radius: 8px;
+}
+
+
+.content {
+  background: #fff;
+  padding: 40px 10%;
+}
+
+.content h2 {
+  margin-bottom: 10px;
+}
+
+.info-blocks {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  gap: 30px;
+}
+
+.testimonials,
+.more-projects {
+  flex: 1;
+  background: #fafafa;
+  padding: 20px;
+
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.testimonial {
+    order:1;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+.testimonial img {
+  border-radius: 1px;
+  width: 125px;
+  height: 90px;
+}
+.extra {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    
+  background: #fafafa;
+  padding: 20px;
+
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+
+.project-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-list img {
+  border-radius: 5px;
+  transition: transform 0.3s;
+  width: 200px;
+  height: auto;
+}
+
+.project-list img:hover {
+  transform: scale(1.05);
+}
+
+.extra button {
+  background: #010104;
+  color: #ffffff;
+  border: none;
+  padding: 8px 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.extra button:hover {
+  background: #2207ec;
+}
+
+.extra input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px
+}
+
+
+.footer {
+  background: #111;
+  color: #ccc;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
